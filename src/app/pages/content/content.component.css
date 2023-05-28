@@ -20,8 +20,26 @@
 
 .content__description {
     margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .content__description > p {
     color: grey;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content__description > a {
+    margin: auto;
+}
+
+.content__description > a > input {
+    border: 1px solid gray;
+    background-color: bisque;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
 }
